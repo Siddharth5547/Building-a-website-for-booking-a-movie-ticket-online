@@ -1,0 +1,116 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seat Selection</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    
+    .seat-selection {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding-top: 30px;
+    }
+
+    .seats {
+      text-align: center;
+    }
+
+   
+    .seat {
+      height: 70px; 
+      width: 60px;
+      margin: 10px;
+      font-size: 20px; 
+      border-radius: 8px;
+    }
+
+    
+    .seat:hover {
+      background-color: aqua;
+      color: rgb(255, 162, 0);
+    }
+
+    
+    .seat.selected {
+      background-color: green;
+      color: white;
+    }
+
+    
+    .proceed-button {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 15px 30px;
+      background-color: blue;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 18px;
+    }
+
+    .proceed-button:hover {
+      background-color: darkblue;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">MovieBooking</div>
+  </header>
+
+  <section class="seat-selection">
+    <h2>Select Your Seats</h2>
+    <div class="seats">
+      <button class="seat">1</button>
+      <button class="seat">2</button>
+      <button class="seat">3</button>
+      <button class="seat">4</button>
+      <button class="seat">5</button>
+      <button class="seat">6</button>
+      <button class="seat">7</button>
+      <button class="seat">8</button>
+      <button class="seat">9</button>
+      <button class="seat">10</button><br>
+      <button class="seat">11</button>
+      <button class="seat">12</button>
+      <button class="seat">13</button>
+      <button class="seat">14</button>
+      <button class="seat">15</button>
+      <button class="seat">16</button>
+      <button class="seat">17</button>
+      <button class="seat">18</button>
+      <button class="seat">19</button>
+      <button class="seat">20</button><br>
+      <button class="seat">21</button>
+      <button class="seat">22</button>
+      <button class="seat">23</button>
+      <button class="seat">24</button>
+      <button class="seat">25</button>
+      <button class="seat">26</button>
+      <button class="seat">27</button>
+      <button class="seat">28</button>
+      <button class="seat">29</button>
+      <button class="seat">30</button><br>
+      <button class="seat">31</button>
+      <button class="seat">32</button>
+      <button class="seat">33</button>
+      <button class="seat">34</button>
+      <button class="seat">35</button>
+      <button class="seat">36</button>
+      <button class="seat">37</button>
+      <button class="seat">38</button>
+      <button class="seat">39</button>
+      <button class="seat">40</button>
+    </div>
+    <a href="payment.html" class="proceed-button">Proceed to Payment</a>
+  </section>
+
+</body>
+</html>

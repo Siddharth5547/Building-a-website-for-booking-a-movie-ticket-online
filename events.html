@@ -1,0 +1,118 @@
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Events</title>
+   <link rel="stylesheet" href="style.css">
+   <style>
+     /* Center the header text and make the logo look nicer */
+     header {
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       padding: 10px 20px;
+       background-color: #333;
+       color: white;
+     }
+ 
+     /* Style the navigation menu */
+     nav ul {
+       list-style: none;
+       display: flex;
+       gap: 15px;
+     }
+ 
+     nav ul li a {
+       color: white;
+       text-decoration: none;
+     }
+ 
+     /* Styling for the events section */
+     .events-list {
+       text-align: center;
+       padding: 20px;
+     }
+ 
+     /* Display events in a row */
+     .events-list {
+       display: flex;
+       justify-content: center;
+       gap: 20px;
+     }
+ 
+     .event {
+       text-align: center;
+     }
+ 
+     /* Event images styling */
+     .event img {
+       width: 200px;
+       height: auto;
+       border-radius: 10px;
+     }
+ 
+     /* Style for event titles */
+     .event h3 {
+       color: aquamarine;
+       margin-top: 10px;
+     }
+ 
+     /* Book Now button styling */
+     .event a {
+       display: inline-block;
+       margin-top: 5px;
+       padding: 10px 20px;
+       background-color: #28a745;
+       color: white;
+       text-decoration: none;
+       border-radius: 5px;
+     }
+ 
+     .event a:hover {
+       background-color: #218838;
+     }
+   </style>
+ </head>
+ <body>
+ 
+   <header>
+     <div class="logo">MovieBooking</div>
+     <nav>
+       <ul>
+         <li><a href="index.html">Home</a></li>
+         <li><a href="movies.html">Movies</a></li>
+         <li><a href="streaming.html">Streaming</a></li>
+         <li><a href="sports.html">Sports</a></li>
+         <li><a href="events.html">Events</a></li>
+         <li><a href="activities.html">Activities</a></li>
+         <li><a href="sign-in.html">Sign In</a></li>
+       </ul>
+     </nav>
+   </header>
+ 
+   <section class="events-list">
+     <h2>Upcoming Events</h2>
+     <div class="event">
+       <img src="event1.jpg" alt="Music Concert">
+       <h3>Banger Carnival</h3>
+       <a href="showtime.html">Book Now</a>
+     </div>
+     <div class="event">
+       <img src="event2.jpg" alt="Theater Play">
+       <h3>Year of Legends</h3>
+       <a href="showtime.html">Book Now</a>
+     </div>
+     <div class="event">
+       <img src="event3.jpg" alt="Theater Play">
+       <h3>Maroon5</h3>
+       <a href="showtime.html">Book Now</a>
+     </div>
+   </section>
+ 
+   <script src="script.js"></script>
+ 
+ </body>
+ </html>
+ 

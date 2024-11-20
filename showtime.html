@@ -1,0 +1,112 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Showtime Selection</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #2c3e50;
+      color: white;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    header .logo {
+      font-size: 28px;
+      font-weight: bold;
+      color: goldenrod;
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      text-align: center;
+      font-size: 32px;
+      margin-bottom: 30px;
+      color: hotpink;
+    }
+
+    .showtimes {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-bottom: 30px;
+    }
+
+    .showtime {
+      height: 100px;
+      width: 150px;
+      font-size: 18px;
+      color: white;
+      background-color: #34495e;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: 0.3s ease;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    }
+
+    .showtime:hover {
+      background-color: hotpink;
+      color: blue;
+      transform: scale(1.1);
+      box-shadow: 0 6px 10px rgba(0, 0, 0, 0.4);
+    }
+
+    .select {
+      margin-top: 30px;
+      text-align: center;
+    }
+
+    .select a {
+      display: inline-block;
+      text-decoration: none;
+      color: white;
+      background-color: goldenrod;
+      padding: 15px 30px;
+      font-size: 18px;
+      border-radius: 8px;
+      transition: 0.3s ease;
+    }
+
+    .select a:hover {
+      background-color: #d4af37;
+      transform: scale(1.1);
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">MovieBooking</div>
+  </header>
+
+  <section class="showtime-selection">
+    <h2>Select Showtime</h2>
+    <div class="showtimes">
+      <div class="showtime">10:00 AM</div>
+      <div class="showtime">1:00 PM</div>
+      <div class="showtime">4:00 PM</div>
+      <div class="showtime">7:00 PM</div>
+    </div>
+    <div class="select">
+      <a href="seats.html">Proceed to Seat Selection</a>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
+

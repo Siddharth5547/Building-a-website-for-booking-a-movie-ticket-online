@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie Booking - Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="logo">MovieBooking</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="movies.html">Movies</a></li>
+        <li><a href="streaming.html">Streaming</a></li>
+        <li><a href="sports.html">Sports</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="activities.html">Activities</a></li>
+        <li><a href="sign-in.html">Sign In</a></li>
+        <li><a href="seats.html"></a></li>
+        <li><a href="payment.html"></a></li>
+        <li><a href="showtime.html"></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="main-banner">
+      <h1>Welcome to Movie Booking</h1>
+      <p>Book your favorite movies, events, sports, activities, and more.</p>
+    </section>
+
+    <section class="categories">
+      <div class="category" onclick="window.location.href='movies.html'">
+        <h2>Movies</h2>
+        <img src="movie-poster.jpg" alt="Movies">
+      </div>
+      <div class="category" onclick="window.location.href='events.html'">
+        <h2>Events</h2>
+        <img src="event-poster.jpg" alt="Events">
+      </div>
+      <div class="category" onclick="window.location.href='sports.html'">
+        <h2>Sports</h2>
+        <img src="sports-poster.jpg" alt="Sports">
+      </div>
+      <div class="category" onclick="window.location.href='activities.html'">
+        <h2>Activities</h2>
+        <img src="activities-poster.jpg" alt="Activities">
+      </div>
+    </section>
+
+    <section class="recommended">
+      <h1 style="color:blanchedalmond">Recommended for You</h1>
+      <div class="movie-list">
+        <div class="movie-card">
+          <img src="movie1.jpg" alt="Movie 1">
+          <h3>Comedy Movie</h3>
+        </div>
+        <div class="movie-card">
+          <img src="movie2.jpg" alt="Movie 2">
+          <h3>Action Movie</h3>
+        </div>
+        <div class="movie-card">
+          <img src="movie3.jpg" alt="Movie 3">
+          <h3>Thriller Movie</h3>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Movie Booking. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

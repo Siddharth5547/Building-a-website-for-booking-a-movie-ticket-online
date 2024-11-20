@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* display:inline-block;  */
+  }
+  h1,a:hover{
+    text-decoration: underline;
+    transition: transform 0.3s;
+    color:aqua;
+    transform: scale(1.05);
+    font-size:larger ;
+     }
+    
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-image: url(backgroundimage.jpg);
+    image-orientation:cover;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  header .logo {
+    font-size: 24px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .main-banner {
+    background-color: #000;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .categories {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 40px;
+  }
+  
+  .category {
+    text-align: center;
+    width: 20%;
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+  
+  .category:hover {
+    transform: scale(1.05);
+  }
+  
+  .category img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .recommended {
+    margin-top: 60px;
+    text-align: center;
+  }
+  
+  .movie-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .movie-card {
+    width: 30%;
+    text-align: center;
+  }
+  
+  .movie-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+  }
+  
+  footer p {
+    font-size: 14px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .category {
+      width: 45%;
+    }
+  
+    .movie-card {
+      width: 45%;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .category {
+      width: 100%;
+    }
+  
+    .movie-card {
+      width: 100%;
+    }
+  }
+  
